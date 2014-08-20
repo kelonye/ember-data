@@ -9,7 +9,7 @@
     <script type='text/javascript'>
       require('ember-data');
       App = Em.Application.create();
-      App.Store = DS.Store.extend({
+      App.ApplicationStore = DS.Store.extend({
         adapter: 'DS.FixturesAdapter'
       });
       App.Book = DS.Model.extend({
