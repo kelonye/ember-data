@@ -1,8 +1,8 @@
 {
   "name": "ember-data",
-  "version": "1.0.0-beta.9",
+  "version": "1.0.0-beta.14.1",
   "dependencies":{
-    "kelonye/ember":"1.7.0"
+    "kelonye/ember":"1.9.1"
   },
   "main": "lib/index.js",
   "scripts":[
