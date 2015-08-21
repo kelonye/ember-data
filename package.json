@@ -2,6 +2,6 @@
   "name": "ember-data",
   "private": true,
   "dependencies": {
-    "component": "0.19.9"
+    "component": "*"
   }
 }
