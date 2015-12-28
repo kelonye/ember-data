@@ -1,7 +1,12 @@
 component = ./node_modules/.bin/component
+folder = example/components/kelonye-ember-data/
 
 public: node_modules components $(shell find lib -type f)
-	$(component) build -n $@ -o $@
+	@mkdir -p $(folder)
+	@cp -rf components/* example/components
+	@cp -f component.json $(folder)
+	@cp -rf lib $(folder)
+	@node build.js
 	@touch $@
 
 node_modules:
@@ -13,7 +18,4 @@ components:
 example: public
 	@xdg-open example/index.html
 
-clean:
-	@rm -rf public
-
-.PHONY: clean example
+.PHONY: example

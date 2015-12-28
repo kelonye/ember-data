@@ -2,6 +2,6 @@
   "name": "ember-data",
   "private": true,
   "dependencies": {
-    "component": "*"
+    "component-hooks": "^0.3.2"
   }
 }
