@@ -1,6 +1,6 @@
 require('ember-data');
 
-Em.TEMPLATES.index = Em.Handlebars.template(eval(require('./template')));
+Em.TEMPLATES.index = Em.Handlebars.template(require('./template'));
 
 App = Em.Application.create();
 

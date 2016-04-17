@@ -6,7 +6,7 @@ public: node_modules components $(shell find lib -type f)
 	@cp -rf components/* example/components
 	@cp -f component.json $(folder)
 	@cp -rf lib $(folder)
-	@node build.js
+	node build.js
 	@touch $@
 
 node_modules:
