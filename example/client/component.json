@@ -1,8 +1,12 @@
 {
   "name": "example",
-  "dependencies": {
-    "kelonye/ember-data": "*"
-  },
+  "local": [
+    "ember-data"
+  ],
+  "paths": [
+    ".",
+    "../../.."
+  ],
   "scripts": [
     "index.js"
   ],
