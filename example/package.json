@@ -2,6 +2,6 @@
   "name": "example",
   "private": true,
   "dependencies": {
-    "component-hooks": "^0.4.0"
+    "component-hooks": "0.4.3"
   }
 }
